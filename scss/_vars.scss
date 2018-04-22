@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+@font-face {
+	font-family: 'Lato Heavy';
+	src: url(../fonts/Lato-Heavy.eot); 
+	src: url(../fonts/Lato-Heavy.eot) format('embedded-opentype'),
+		url(../fonts/Lato-Heavy.otf) format("otf"),
+		url(../fonts/Lato-Heavy.woff) format("woff");
+}
+
+@font-face {
+	font-family: 'Lato Medium';
+	src: url(../fonts/Lato-Medium.eot); 
+	src: url(../fonts/Lato-Medium.eot) format('embedded-opentype'),
+		url(../fonts/Lato-Medium.otf) format("otf"),
+		url(../fonts/Lato-Medium.woff) format("woff");
+}
+@font-face {
+	font-family: 'LatoSemibold';
+	src: url(../fonts/Lato-Semibold.eot); 
+	src: url(../fonts/Lato-Semibold.eot) format('embedded-opentype'),
+		url(../fonts/Lato-Semibold.otf) format("otf"),
+		url(../fonts/Lato-Semibold.woff) format("woff");
+}
+$text-font: 300 15px/1.6 'Lato', sans-serif;
+$text-font-reg: 400 13px/1.4 'Lato', sans-serif;
+$text-font-bold: 700 17px/1 'Lato', sans-serif;
+$text-font-semibold: 700 18px/2.7 'SemiLato', sans-serif;
+$text-font-heavy: 900 14px/1.5 'Lato Heavy', sans-serif;
+$text-font-bold-lg: 700 35px/1 'Lato', sans-serif;
+$text-font-black: 900 48px/1.5 'Lato', sans-serif;
+
+$text-color: #323e4d;
+$text-color-inv: #fff;
+$color-accent-orng: #e8be53;
+$color-accent-pink: #cb2d78;
+$color-accent-blue: #6dbbc4;
+
